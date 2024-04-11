@@ -36,12 +36,12 @@ def parse():
     args = parser.parse_args()
 
     # Set the input file:
-    input_filename = 'input_files/all_atlas_lds_kepler.dat'
+    input_filename = 'input_files/KELT-20_input_file.dat'
     if args.ifile is not None:
        input_filename = args.ifile
 
     # Set the output file:
-    output_filename = 'all_atlas_lds_kepler.dat'
+    output_filename = 'KELT-20_cos_g160m.dat'
     if args.ofile is not None:
        output_filename = args.ofile
 

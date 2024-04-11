@@ -10,4 +10,4 @@
 #
 # Name	Teff	logg	M/H	vturb	RF	FT      	min_w	max_w
 #
-My_star	5500.0	4.5	0.0	2.0	KpHiRes	A100,P100	-1	-1
+KELT-20	8900.0	4.38	0.0	2.0	'cos_g160m_response.dat'	P100	-1	-1
