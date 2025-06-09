@@ -15,6 +15,7 @@ try:
   import pyfits as fits
 except:
   import astropy.io.fits as fits
+import pandas as pd
 
 rootdir = os.path.dirname(os.path.realpath(__file__))
 
@@ -36,12 +37,12 @@ def parse():
     args = parser.parse_args()
 
     # Set the input file:
-    input_filename = 'input_files/KELT-20_input_file.dat'
+    input_filename = 'input_files/KELT-20_input_file_kn.dat'
     if args.ifile is not None:
        input_filename = args.ifile
 
     # Set the output file:
-    output_filename = 'KELT-20_cos_g160m.dat'
+    output_filename = 'KELT-20_kn.dat'
     if args.ofile is not None:
        output_filename = args.ofile
 
