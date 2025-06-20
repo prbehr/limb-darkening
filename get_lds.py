@@ -1104,7 +1104,7 @@ def calc_lds(name, response_function, model, s_met, s_grav, s_teff,
                    "s1, s2 = {:11.8f}, {:11.8f}\n\n".format(*LDC))
 
     print('\t > Done! \n\t {:s}\n'.format(70*'#'))
-    return LDC
+    return LDC, mu, I0
 
 
 def lds(Teff=None, grav=None, metal=None, vturb=-1,
